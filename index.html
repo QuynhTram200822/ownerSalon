@@ -70,6 +70,10 @@
               <a href="#" class="login-btn">アクセス</a>
             </li>
           </ul>
+          <div class="menu">
+            <img src="./img/menu.png">
+
+          </div>
         </div>
       </div>
     </section>
@@ -204,7 +208,7 @@
                     </div>
                   </div>
                   <p class="box-desc">
-                    レンタルタオル
+                    レンタルタオル <br>
                     （付き300枚まで）
                   </p>
                 </div>
@@ -229,24 +233,24 @@
       </section>
     </div>
 
-
+    <div class="advan-ctn-img">
+      <div class="advan-bgImg">
+        <img src="./img/advan1.png">
+      </div>
+      <div class="advan-bgImg">
+        <img src="./img/advan2.png">
+      </div>
+      <div class="advan-bgImg">
+        <img src="./img/advan3.png">
+      </div>
+      <div class="advan-bgImg">
+        <img src="./img/advan4.png">
+      </div>
+    </div>
     <!-- Section Advantage -->
     <div class="container-xxl">
       <section class="advan-ctn">
-        <div class="advan-ctn-img">
-          <div class="advan-bgImg">
-            <img src="./img/advan1.png">
-          </div>
-          <div class="advan-bgImg">
-            <img src="./img/advan2.png">
-          </div>
-          <div class="advan-bgImg">
-            <img src="./img/advan3.png">
-          </div>
-          <div class="advan-bgImg">
-            <img src="./img/advan4.png">
-          </div>
-        </div>
+       
         <div class="container-lg">
           <div class="advan-content-title">
             <h2>
@@ -431,59 +435,57 @@
     </section>
 
     <!-- Section Data -->
-    <div class="container-xxl">
-      <section class="data-ctn">
-        <div class="data-content-title">
-          <h2>
-            Owner’s Salon について
-          </h2>
-        </div>
-        <div class="data-content">
-          <div class="chart-ctn">
-            <div class="col right ">
-              <canvas id="comboChart"></canvas>
-            </div>
-            <div class="col left">
-              <div class="chart-num">
-                01
-              </div>
-              <div class="chart-text">
-                自身で独立するよりも、シェアサロンで開業するよりもコストを低く抑えることができ、収入が高くなります。
-              </div>
-            </div>
+    <section class="data-ctn">
+      <div class="data-content-title">
+        <h2>
+          Owner’s Salon について
+        </h2>
+      </div>
+      <div class="data-content">
+        <div class="chart-ctn">
+          <div class="col right chart">
+            <canvas id="comboChart"></canvas>
           </div>
-          <div class="chart-ctn">
-            <div class="col left">
-              <div class="chart-num">
-                02
-              </div>
-              <div class="chart-text">
-                内装を自分好みに変えることができるので、理想の美容室を手に入れることができる。
-              </div>
+          <div class="col left">
+            <div class="chart-num">
+              01
             </div>
-            <div class="col right ">
-              <img src="./img/data1.png">
-
-            </div>
-
-          </div>
-          <div class="chart-ctn">
-            <div class="col right ">
-              <img src="./img/data2.png">
-            </div>
-            <div class="col left">
-              <div class="chart-num">
-                03
-              </div>
-              <div class="chart-text">
-                シェアサロンとは違い、自身で働きたい時間に働くことができるため、ワークライフバランスの向上につながる。 <br>
-                また、ホットペッパーに登録することができる。
-              </div>
+            <div class="chart-text">
+              自身で独立するよりも、シェアサロンで開業するよりもコストを低く抑えることができ、収入が高くなります。
             </div>
           </div>
         </div>
-      </section>
-    </div>
+        <div class="chart-ctn">
+          <div class="col left">
+            <div class="chart-num">
+              02
+            </div>
+            <div class="chart-text">
+              内装を自分好みに変えることができるので、理想の美容室を手に入れることができる。
+            </div>
+          </div>
+          <div class="col right ">
+            <img src="./img/data1.png">
+
+          </div>
+
+        </div>
+        <div class="chart-ctn">
+          <div class="col right ">
+            <img src="./img/data2.png">
+          </div>
+          <div class="col left">
+            <div class="chart-num">
+              03
+            </div>
+            <div class="chart-text">
+              シェアサロンとは違い、自身で働きたい時間に働くことができるため、ワークライフバランスの向上につながる。 <br>
+              また、ホットペッパーに登録することができる。
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
     <!-- Section Price -->
@@ -628,10 +630,12 @@
               <textarea class="form__input" name="message" placeholder="入力テキスト" rows="5" cols="30"></textarea>
               <div class="checkbox-container">
                 <input type="checkbox" id="checkbox">
-                <label for="checkbox">
+                <label for="checkbox" class="checkbox-label">
                   プライバシーポリシーに同意する <br>
                   <span>
-                    プライバシーポリシー
+                    <a href="#">
+                      プライバシーポリシー
+                    </a>
                   </span>
                   をご覧ください。
                 </label>
@@ -691,7 +695,6 @@
           </div>
           <div class="overview-img">
             <img src="./img/overview.png">
-
           </div>
         </div>
       </div>
@@ -820,6 +823,14 @@
                 </div>
               </a>
             </div>
+          </div>
+          <div class="footer-copyright-2">
+            <p>
+              Copyright ©2023 by
+              <span>
+                Owner’s SALON
+              </span> , alright reserves
+            </p>
           </div>
 
 
