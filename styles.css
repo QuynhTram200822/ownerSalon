@@ -1241,6 +1241,31 @@ a {
     align-items: center;
   }
 }
+/* Screen smaller than 768px */
+@media (max-width: 768px) {
+  .price-content {
+    background-color: transparent;
+    padding: 0px;
+  }
+  .card-ctn {
+    grid-template-columns: 1fr;
+    gap: 9px;
+    margin-bottom: 24px;
+  }
+  .price-card {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .price-card {
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 16px;
+    padding: 16px 19px;
+    /* gap: 28px; */
+  }
+}
 /* Screen smaller than 480px */
 @media (max-width: 480px) {
   .price-ctn {
@@ -1433,6 +1458,7 @@ padding: 0px;
   }
   .map-img img {
     height: 247px;
+    width: 100%;
   }
 }
 
