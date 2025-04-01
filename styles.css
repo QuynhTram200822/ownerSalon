@@ -969,10 +969,16 @@ a {
 }
 .right {
   width: 68%;
-  padding: 54px 49px 55px 70px;
+  padding: 36px 69px 39px 70px;
   background-color: #f6f7f8;
   border-top-right-radius: 56px;
   border-bottom-right-radius: 56px;
+}
+.right:nth-child(1) img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .right:nth-child(2) {
   width: 68%;
@@ -1015,21 +1021,13 @@ a {
   color: #373338;
 }
 /* responsive for Data Section */
-@media (min-width: 1026px) {
-  #comboChart {
-    width: 667px !important;
-  }
-}
 /* Screen smaller than 1025px */
 @media (max-width: 1025px) {
-  #comboChart {
-    height: 420px !important;
-  }
   .chart-ctn {
     gap: 30px;
   }
   .right {
-    padding: 40px 10px;
+    padding: 40px 30px;
   }
   .left,
   .chart-ctn:nth-child(2) .left,
@@ -1095,10 +1093,6 @@ a {
     font-size: 25.2px;
     line-height: 28px;
   }
-  #comboChart {
-    /* height: 420px !important; */
-    height: 100% !important;
-  }
   .chart-ctn,
   .chart-ctn:nth-child(2),
   .chart-ctn:nth-child(3) {
@@ -1106,7 +1100,7 @@ a {
     margin-bottom: 15px;
   }
   .right {
-    padding: 24px 10px;
+    padding: 15px 12px;
   }
   .left,
   .chart-ctn:nth-child(2) .left,
@@ -1264,7 +1258,7 @@ a {
     gap: 9px;
     margin-bottom: 24px;
   }
- 
+
   .price-content {
     background-color: transparent;
     padding: 0px;
@@ -1276,7 +1270,7 @@ a {
     padding: 16px 19px;
     gap: 28px;
   }
-   .price-card:not(:last-child)::after{
+  .price-card:not(:last-child)::after {
     display: none;
   }
   .price-card:last-child {
